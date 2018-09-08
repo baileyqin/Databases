@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>NWUSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291147,34.025348</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM/HOME</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289234,34.02116</coordinates></Point>
+</Placemark>
+<Placemark><name>LyonCenter</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288105,34.024325</coordinates></Point>
+</Placemark>
+<Placemark><name>NEUSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280273,34.022058</coordinates></Point>
+</Placemark>
+<Placemark><name>SEUSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282333,34.018536</coordinates></Point>
+</Placemark>
+<Placemark><name>SWUSC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291302,34.018456</coordinates></Point>
+</Placemark>
+<Placemark><name>TutorHall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286313,34.020217</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavy</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282966,34.021791</coordinates></Point>
+</Placemark>
+<Placemark><name>Traveler</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.285182,34.020061</coordinates></Point>
+</Placemark>
+<Placemark>
+	<name>Hull</name>
+	<styleUrl>#z1</styleUrl>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<coordinates> -118.291302,34.018456
+				-118.291147,34.025348
+				-118.280273,34.022058
+				-118.282333,34.018536
+				-118.291302,34.018456
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</Placemark>
+<Placemark>
+	<name>1home/tutor</name>
+	<LineString>
+		<coordinates>
+			-118.289234,34.02116
+			-118.286313,34.020217
+		</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>2home/lyon</name>
+	<LineString>
+		<coordinates>
+			-118.289234,34.02116
+			-118.288105,34.024325
+		</coordinates>
+	</LineString>
+</Placemark>
+<Placemark>
+	<name>3home/swusc</name>
+	<LineString>
+		<coordinates>
+			-118.289234,34.02116
+			-118.291302,34.018456
+		</coordinates>
+	</LineString>
+</Placemark>
+</Document></kml>
